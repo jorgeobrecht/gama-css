@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <style>
+        /* Largura total: 500px
+        espaco sobrando -100px
+                        (shrink*basis)/(div1(shrink*basis)+div2(shrink*basis))
+        fator de crescimento div1 : (2*300)/(600+300)= .667 * -100 =66.7px
+        fator de crescimento div1 : (1*300)/(600+300)= .333 * -100 =33.3px */
+
+       .flex-div{
+           width:500px;        
+           display:flex;
+
+       }
+
+       .child-div1{
+           border: 1px solid black;
+           flex-basis:300px;
+           flex-shrink: 2;
+
+       }
+       .child-div2{
+           border: 1px solid black;
+           flex-basis:300px;
+           flex-shrink: 1;
+
+       }
+
+    </style>
+</head>
+
+<body>
+    <div class='flex-div'>
+        <div class="child-div1">
+            1
+        </div>
+        <div class="child-div2">
+            2
+        </div>
+    </div>
+</body>
+
+</html>
