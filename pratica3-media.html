@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1.0'>
+    <title>Pratica 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            display: flex;
+            width: 100%;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            border:0px
+            
+        }
+        .card{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            margin: 10px 0;
+        }
+        @media(max-width:700px){
+            .button{
+                width: 100%;
+            }
+            .description{
+                display:none;
+            }
+            img{
+                display:none;
+            }
+            .ul-description{
+                display:none;
+            }
+        }   
+        div{       
+            border: 1px solid black;
+            width: 300px;
+        }
+
+        img{
+            width: 200px;
+        }
+
+        .promo{
+            color:red;
+            font-weight: 600;
+        }
+        .description{
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+        .button{
+            padding:10px;
+            margin: 10px 0;
+        }
+        .button:hover{
+            cursor:pointer;
+            background-color: royalblue;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <div class="card">
+            <h3 class="product-name">Óculos de Sol Esportivo OUTSUN</h3>
+            <img src="https://cdn.shopify.com/s/files/1/0572/0719/3794/products/product-image-1791842372_720x.jpg?v=1625409830"
+            alt="Óculos OUTSUN">
+            <p class="description">Principais vantagens :</p>
+            <ul class="ul-description" type="circle">
+                <li>Resistência</li>
+                <li>Flexibilidade</li>
+                <li>Durabilidade</li>
+                <li>Leveza</li>
+            </ul>
+            <span><s>R$165,44</s></span>
+            <span class="promo">R$ 95,00</span>
+            <br/>
+            <button type="button" class="button">Comprar Agora !</button>
+        </div>
+        <div class="card">
+            <h3 class="product-name">Óculos de Sol Esportivo OUTSUN</h3>
+            <img src="https://cdn.shopify.com/s/files/1/0572/0719/3794/products/product-image-1791842372_720x.jpg?v=1625409830"
+            alt="Óculos OUTSUN">
+            <p class="description">Principais vantagens :</p>
+            <ul class="ul-description" type="circle">
+                <li>Resistência</li>
+                <li>Flexibilidade</li>
+                <li>Durabilidade</li>
+                <li>Leveza</li>
+            </ul>
+            <span><s>R$165,44</s></span>
+            <span class="promo">R$ 95,00</span>
+            <br/>
+            <button type="button" class="button">Comprar Agora !</button>
+        </div>
+        <div class="card">
+            <h3 class="product-name">Óculos de Sol Esportivo OUTSUN</h3>
+            <img src="https://cdn.shopify.com/s/files/1/0572/0719/3794/products/product-image-1791842372_720x.jpg?v=1625409830"
+            alt="Óculos OUTSUN">
+            <p class="description">Principais vantagens :</p>
+            <ul class="ul-description" type="circle">
+                <li>Resistência</li>
+                <li>Flexibilidade</li>
+                <li>Durabilidade</li>
+                <li>Leveza</li>
+            </ul>
+            <span><s>R$165,44</s></span>
+            <span class="promo">R$ 95,00</span>
+            <br/>
+            <button type="button" class="button">Comprar Agora !</button>
+        </div>
+        <div class="card">
+            <h3 class="product-name">Óculos de Sol Esportivo OUTSUN</h3>
+            <img src="https://cdn.shopify.com/s/files/1/0572/0719/3794/products/product-image-1791842372_720x.jpg?v=1625409830"
+            alt="Óculos OUTSUN">
+            <p class="description">Principais vantagens :</p>
+            <ul class="ul-description" type="circle">
+                <li>Resistência</li>
+                <li>Flexibilidade</li>
+                <li>Durabilidade</li>
+                <li>Leveza</li>
+            </ul>
+            <span><s>R$165,44</s></span>
+            <span class="promo">R$ 95,00</span>
+            <br/>
+            <button type="button" class="button">Comprar Agora !</button>
+        </div>
+    </div>
+</body>
+</html>
